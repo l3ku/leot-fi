@@ -1,0 +1,30 @@
+#personal-image-container {
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 5px;
+}
+#upload-profile-pic {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+.social-form-field {
+    width: 16em;
+}
+#home-page-picture-preview {
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    min-height: 300px;
+    min-width: 500px;
+}
+#upload-home-pic {
+    position: absolute;
+    width: 100%;
+    bottom: -15px;
+}
