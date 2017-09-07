@@ -8,6 +8,12 @@
 <html <?php language_attributes(); ?>>
 <head>
     <title><?php if (!empty(wp_title('', false))) { echo wp_title('', false); } ?></title>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="black">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="black">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
