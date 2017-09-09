@@ -1,11 +1,10 @@
-/*
-    @package portfolio
+/**
+* @package portfolio
 */
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
-
 
 /* HEADER CSS */
 #header-menu {
@@ -68,8 +67,13 @@ body {
     font-size: 1.5em;
 }
 #personal-image {
-    float: right;
+    margin: 0 auto;
+    margin-bottom: 1em;
     max-height: 10em;
+}
+.coding-info {
+    text-align: center;
+    margin-bottom: 1em;
 }
 .recent-projects {
     text-align: center;
@@ -115,20 +119,26 @@ body {
 
 /* PROJECTS CSS */
 .project-wrapper {
-    padding: 2em;
+    padding: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
     background-color: #ececec;
     color: black;
 }
+.project-row {
+    margin-bottom: 3em;
+}
 .project-preview {
     font-size: 1.15em;
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 .project-preview-title {
     font-size: 3em;
 }
 .project-preview-title-link {
     color: black;
-    text-decoration: underline;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -136,12 +146,17 @@ body {
 }
 .project-preview-title-link:hover {
     color: white;
+    text-decoration: none;
 }
 .project-read-more {
     color: black;
 }
 .project-read-more:hover {
     color: #16D4DA;
+}
+.projects-hr {
+    border: 0;
+    border-top: 1px solid white;
 }
 
 
@@ -194,7 +209,7 @@ body {
 /* SINGLE POST CSS */
 .content-area {
     padding-top: 20px;
-    padding: 10px;
+    padding: 1.5em;;
     background-color: #ececec;
 }
 
@@ -221,7 +236,7 @@ body {
        background-size:100% 100%;
        padding-left: 5em;
        height: 40px;
-       width: 35px;
+       width: 36px;
     }
     .twitter-link, .facebook-link, .github-link, .linkedin-link {
         opacity: 0.8;

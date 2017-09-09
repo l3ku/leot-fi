@@ -7,10 +7,10 @@
 
 get_header(); ?>
 
-<div class="container content-area">
+<div class="container-fluid content-area">
     <?php while (have_posts()): the_post(); ?>
         <article class="single-post">
-            <h1 class="post-title">
+            <h2 class="post-title">
                 <?php the_title(); ?>
             </h2>
             <p class="post-content">

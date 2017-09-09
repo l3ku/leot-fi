@@ -8,12 +8,12 @@ get_header(); ?>
     <div class="index-black">
         <div class="container-fluid">
             <div class="row">
-                <div class="coding-info col-xs-8">
-                    <?php get_template_part( 'template-parts/content-homeinfo'); ?>
-                </div><!-- .col-xs-4 -->
-                <div class="col-xs-4">
+                <div class="col-xs-12 col-md-2">
                     <image src="<?php echo esc_attr(get_option('profile_picture')); ?>"
-                        class="img-responsive img-circle" id="personal-image">
+                        class="img-circle center-block" id="personal-image">
+                </div><!-- .col-xs-4 -->
+                <div class="coding-info col-xs-12 col-md-10">
+                    <?php get_template_part( 'template-parts/content-homeinfo'); ?>
                 </div><!-- .col-xs-4 -->
             </div><!-- .row -->
             <div class="row">
@@ -37,8 +37,10 @@ get_header(); ?>
             </div><!--.row-->
         </div><!-- .container -->
     </div><!-- .index-black -->
-    <div class="index-lower" style="background-image: linear-gradient(to bottom, black,  rgba(0, 0, 0, 0) 60%, black 100%),
-    url(<?php echo esc_attr(get_option('home_picture')) ?>)">
+    <div class="index-lower" <?php if (get_option('home_picture')) : ?>
+      style="background-image: linear-gradient(to bottom, black,  rgba(0, 0, 0, 0) 60%, black 100%),
+      url(<?php echo esc_attr(get_option('home_picture')) ?>)"
+      <?php endif; ?>>
     </div><!-- .index-lower -->
 </div><!-- .index-wrapper -->
 

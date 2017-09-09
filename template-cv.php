@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="container cv-wrapper">
+<div class="container-fluid cv-wrapper">
     <div class="row">
         <div class="col-md-3 col-xs-12 cv-profile-image-wrapper">
             <image src="<?php echo esc_attr(get_option('profile_picture')); ?>"
@@ -22,7 +22,7 @@ get_header(); ?>
         </div><!-- .cv-motivation-text-wrapper -->
     </div><!-- .row -->
     <div class="education-wrapper row">
-        <div class="cv-row-image education-image col-md-3 col-xs-12">
+        <div class="education-image col-md-3 col-xs-12">
             <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/icons8-Student-Male-100.png">
         </div><!-- .education-image .col-xs-3 -->
         <div class="education-content col-md-9 col-xs-12">
