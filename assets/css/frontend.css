@@ -33,7 +33,7 @@ body {
     color: white;
     font-size: 1.3em;
 }
-.navbar-nav>li>a:hover, .navbar-nav>li>a:active {
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active, .navbar-nav>li>a:focus {
     background-color: rgba(255, 0, 0, 0);
 }
 #header-title-container {
