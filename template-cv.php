@@ -29,7 +29,7 @@ get_header();
   <!-- Row containing education information -->
   <div class="education-wrapper row">
     <div class="education-image col-md-3 col-xs-12">
-      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/icons8-Student-Male-100.png'; ?>">
+      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/student.png'; ?>">
     </div><!-- .education-image .col-xs-3 -->
     <div class="education-content col-md-9 col-xs-12">
       <?php the_field('cv_education', get_the_ID()); ?>
@@ -39,7 +39,7 @@ get_header();
   <!-- Row containing IT skills -->
   <div class="it-skills-wrapper row">
     <div class="it-skills-image col-md-3 col-xs-12">
-        <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/icons8-Code-100.png'; ?>">
+        <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/code.png'; ?>">
     </div><!-- .it-skills-image .col-xs-3 -->
     <div class="it-skills-content col-md-9 col-xs-12">
       <?php the_field('cv_it_skills', get_the_ID()); ?>
@@ -49,7 +49,7 @@ get_header();
   <!-- Row containing language skills -->
   <div class="language-skills-wrapper row">
     <div class="language-skills-image col-md-3 col-xs-12">
-      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/icons8-Language-100.png'; ?>">
+      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/language.png'; ?>">
     </div><!-- .language-skills-image .col-xs-3 -->
     <div class="language-skills-content col-md-9 col-xs-12">
       <?php the_field('cv_language_skills', get_the_ID()); ?>
@@ -59,7 +59,7 @@ get_header();
   <!-- Row containing work experience -->
   <div class="work-experience-wrapper row">
     <div class="work-experience-image col-md-3 col-xs-12">
-      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/icons8-Business-100.png'; ?>">
+      <img class="cv-row-image img-responsive" src="<?php echo get_template_directory_uri() . '/images/business.png'; ?>">
     </div><!-- .work-experience-image .col-xs-3 -->
     <div class="work-experience-content col-md-9 col-xs-12">
       <?php the_field('cv_work_experience', get_the_ID()); ?>
