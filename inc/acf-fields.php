@@ -1,59 +1,61 @@
 <?php
 /**
-* @package portfolio
-*/
-if(function_exists("register_field_group"))
-{
-	register_field_group(array (
+ * Register ACF fields.
+ *
+ * @package portfolio
+ */
+
+if ( function_exists( 'register_field_group' ) ) {
+	register_field_group( array (
 		'id' => 'acf_resume-page-fields',
-		'title' => 'Resume Page Fields',
+		'title' => __( 'Resume Page Fields', 'leotoikka' ),
 		'fields' => array (
 			array (
 				'key' => 'field_597450f575c77',
-				'label' => 'Education',
+				'label' => __( 'Education', 'leotoikka' ),
 				'name' => 'cv_education',
 				'type' => 'wysiwyg',
-				'instructions' => 'Insert your education here',
+				'instructions' => __( 'Insert your education here.', 'leotoikka' ),
 				'default_value' => '',
 				'toolbar' => 'full',
 				'media_upload' => 'yes',
 			),
 			array (
 				'key' => 'field_59745e44f3b4f',
-				'label' => 'IT Skills',
+				'label' => __( 'IT Skills', 'leotoikka' ),
 				'name' => 'cv_it_skills',
 				'type' => 'wysiwyg',
-				'instructions' => 'Evaluate your current IT skills.',
+				'instructions' => __( 'Evaluate your current IT skills.', 'leotoikka' ),
 				'default_value' => '',
 				'toolbar' => 'full',
 				'media_upload' => 'yes',
 			),
 			array (
 				'key' => 'field_59745e28f3b4e',
-				'label' => 'Language Skills',
+				'label' => __( 'Language Skills', 'leotoikka' ),
 				'name' => 'cv_language_skills',
 				'type' => 'wysiwyg',
-				'instructions' => 'Evaluate your current language skills.',
+				'instructions' => __( 'Evaluate your current language skills.', 'leotoikka' ),
 				'default_value' => '',
 				'toolbar' => 'full',
 				'media_upload' => 'yes',
 			),
 			array (
 				'key' => 'field_5974516875c78',
-				'label' => 'Work Experience',
+				'label' => __( 'Work Experience', 'leotoikka' ),
 				'name' => 'cv_work_experience',
 				'type' => 'wysiwyg',
-				'instructions' => 'Insert your work experience here.',
+				'instructions' => __( 'Insert your work experience here.', 'leotoikka' ),
 				'default_value' => '',
 				'toolbar' => 'full',
 				'media_upload' => 'yes',
 			),
 			array (
 				'key' => 'field_59745e99f3b50',
-				'label' => 'Hobbies',
+				'label' => __( 'Hobbies', 'leotoikka' ),
 				'name' => 'cv_hobbies',
 				'type' => 'wysiwyg',
-				'instructions' => 'Tell us what you like to do during your spare time.',
+				'instructions' => __( 'Tell us what you like to do during your spare time.', 'leotoikka' ),
 				'default_value' => '',
 				'toolbar' => 'full',
 				'media_upload' => 'yes',

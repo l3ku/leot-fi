@@ -1,4 +1,6 @@
 <?php
 /**
-* @package portfolio
-*/
+ * Nothing to see here...
+ *
+ * @package portfolio
+ */
