@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/leotoikka\n"
-"POT-Creation-Date: 2017-08-10 15:50:18+00:00\n"
+"POT-Creation-Date: 2017-12-29 14:18:10+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,116 +12,156 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: home.php:21
-msgid "Recent Projects"
+#: inc/acf-fields.php:11
+msgid "Resume Page Fields"
 msgstr ""
 
-#: inc/enqueue.php:33
+#: inc/acf-fields.php:15
+msgid "Education"
+msgstr ""
+
+#: inc/acf-fields.php:18
+msgid "Insert your education here."
+msgstr ""
+
+#: inc/acf-fields.php:25
+msgid "IT Skills"
+msgstr ""
+
+#: inc/acf-fields.php:28
+msgid "Evaluate your current IT skills."
+msgstr ""
+
+#: inc/acf-fields.php:35
+msgid "Language Skills"
+msgstr ""
+
+#: inc/acf-fields.php:38
+msgid "Evaluate your current language skills."
+msgstr ""
+
+#: inc/acf-fields.php:45
+msgid "Work Experience"
+msgstr ""
+
+#: inc/acf-fields.php:48
+msgid "Insert your work experience here."
+msgstr ""
+
+#: inc/acf-fields.php:55
+msgid "Hobbies"
+msgstr ""
+
+#: inc/acf-fields.php:58
+msgid "Tell us what you like to do during your spare time."
+msgstr ""
+
+#: inc/enqueue.php:31
 msgid "Choose a Profile Picture"
 msgstr ""
 
-#: inc/enqueue.php:34 inc/theme-options.php:9 inc/theme-options.php:48
-#: inc/theme-options.php:50
+#: inc/enqueue.php:32 inc/theme-options.php:11 inc/theme-options.php:50
+#: inc/theme-options.php:52
 msgid "Choose Picture"
 msgstr ""
 
-#: inc/enqueue.php:35
+#: inc/enqueue.php:33
 msgid "Choose a Home Page Image"
 msgstr ""
 
-#: inc/enqueue.php:36
+#: inc/enqueue.php:34
 msgid "Choose Image"
 msgstr ""
 
-#: inc/functions-admin.php:7
+#: inc/functions-admin.php:10
 msgid "Portfolio Theme Settings"
 msgstr ""
 
-#: inc/functions-admin.php:8
+#: inc/functions-admin.php:11
 msgid "Theme Settings"
 msgstr ""
 
-#: inc/functions-admin.php:15 inc/theme-options.php:69
+#: inc/functions-admin.php:20 inc/theme-options.php:71
 msgid "Portfolio Social Settings"
 msgstr ""
 
-#: inc/functions-admin.php:15
+#: inc/functions-admin.php:21
 msgid "Social"
 msgstr ""
 
-#: inc/functions-admin.php:16
+#: inc/functions-admin.php:28
 msgid "Portfolio Page Settings"
 msgstr ""
 
-#: inc/functions-admin.php:16
+#: inc/functions-admin.php:29
 msgid "Pages"
 msgstr ""
 
-#: inc/templates/portfolio-pages.php:6 inc/templates/portfolio-social.php:7
+#: inc/templates/portfolio-pages.php:15 inc/templates/portfolio-social.php:15
 msgid "Save Changes"
 msgstr ""
 
-#: inc/theme-options.php:11
+#: inc/theme-options.php:13
 msgid "Change Picture"
 msgstr ""
 
-#: inc/theme-options.php:18
+#: inc/theme-options.php:20
 msgid "Enter your Twitter URL"
 msgstr ""
 
-#: inc/theme-options.php:23
+#: inc/theme-options.php:25
 msgid "Enter your Facebook URL"
 msgstr ""
 
-#: inc/theme-options.php:28
+#: inc/theme-options.php:30
 msgid "Enter your Github URL"
 msgstr ""
 
-#: inc/theme-options.php:33
+#: inc/theme-options.php:35
 msgid "Enter your LinkedIn URL"
 msgstr ""
 
-#: inc/theme-options.php:37
+#: inc/theme-options.php:39
 msgid "Change your profile picture and social media addresses."
 msgstr ""
 
-#: inc/theme-options.php:55
+#: inc/theme-options.php:57
 msgid "Change the text and picture displayed on the home page"
 msgstr ""
 
-#: inc/theme-options.php:71
+#: inc/theme-options.php:73
 msgid "Profile Picture"
 msgstr ""
 
-#: inc/theme-options.php:72
+#: inc/theme-options.php:74
 msgid "Twitter URL"
 msgstr ""
 
-#: inc/theme-options.php:73
+#: inc/theme-options.php:75
 msgid "Facebook URL"
 msgstr ""
 
-#: inc/theme-options.php:74
+#: inc/theme-options.php:76
 msgid "Github URL"
 msgstr ""
 
-#: inc/theme-options.php:75
+#: inc/theme-options.php:77
 msgid "LinkedIn URL"
 msgstr ""
 
-#: inc/theme-options.php:79
+#: inc/theme-options.php:80
 msgid "Portfolio Home Page Settings"
 msgstr ""
 
-#: inc/theme-options.php:82
+#: inc/theme-options.php:83
 msgid "Home Page Text"
 msgstr ""
 
-#: inc/theme-options.php:83
+#: inc/theme-options.php:84
 msgid "Home Page Picture"
 msgstr ""
 
-#: inc/theme-support.php:13
+#: inc/theme-support.php:15
 msgid "The main navigation menu which appears in the top right corner"
 msgstr ""
 
@@ -142,7 +182,7 @@ msgid "Contact page"
 msgstr ""
 
 #. Template Name of the plugin/theme
-msgid "CV Page"
+msgid "CV page"
 msgstr ""
 
 #. Template Name of the plugin/theme

@@ -4,127 +4,167 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/leotoikka\n"
-"POT-Creation-Date: 2017-08-10 18:51+0300\n"
+"POT-Creation-Date: 2017-12-29 14:18:10+00:00\n"
+"PO-Revision-Date: 2017-12-29 16:21+0200\n"
+"Last-Translator: Leo Toikka <leo@seravo.fi>\n"
+"Language-Team: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-10 18:58+0300\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.0.2\n"
-"Last-Translator: \n"
+"X-Generator: Poedit 2.0.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: fi\n"
 
-#: home.php:21
-msgid "Recent Projects"
-msgstr "Viimeisimmät projektit"
+#: inc/acf-fields.php:11
+msgid "Resume Page Fields"
+msgstr "CV-sivun erikoiskentät"
 
-#: inc/enqueue.php:33
+#: inc/acf-fields.php:15
+msgid "Education"
+msgstr "Koulutus"
+
+#: inc/acf-fields.php:18
+msgid "Insert your education here."
+msgstr "Syötä koulutuksesi tähän."
+
+#: inc/acf-fields.php:25
+msgid "IT Skills"
+msgstr "IT-taidot"
+
+#: inc/acf-fields.php:28
+msgid "Evaluate your current IT skills."
+msgstr "Arvioi tämänhetkiset IT-taitosi."
+
+#: inc/acf-fields.php:35
+msgid "Language Skills"
+msgstr "Kielitaito"
+
+#: inc/acf-fields.php:38
+msgid "Evaluate your current language skills."
+msgstr "Arvioi tämänhetkinen kielitaitosi."
+
+#: inc/acf-fields.php:45
+msgid "Work Experience"
+msgstr "Työkokemus"
+
+#: inc/acf-fields.php:48
+msgid "Insert your work experience here."
+msgstr "Lisää työkokemuksesi tähän."
+
+#: inc/acf-fields.php:55
+msgid "Hobbies"
+msgstr "Harrastukset"
+
+#: inc/acf-fields.php:58
+msgid "Tell us what you like to do during your spare time."
+msgstr "Kerro, mitä teet vapaa-ajallasi."
+
+#: inc/enqueue.php:31
 msgid "Choose a Profile Picture"
 msgstr "Valitse profiilikuva"
 
-#: inc/enqueue.php:34 inc/theme-options.php:9 inc/theme-options.php:48
-#: inc/theme-options.php:50
+#: inc/enqueue.php:32 inc/theme-options.php:11 inc/theme-options.php:50
+#: inc/theme-options.php:52
 msgid "Choose Picture"
 msgstr "Valitse kuva"
 
-#: inc/enqueue.php:35
+#: inc/enqueue.php:33
 msgid "Choose a Home Page Image"
 msgstr "Valitse etusivun kuva"
 
-#: inc/enqueue.php:36
+#: inc/enqueue.php:34
 msgid "Choose Image"
 msgstr "Valitse kuva"
 
-#: inc/functions-admin.php:7
+#: inc/functions-admin.php:10
 msgid "Portfolio Theme Settings"
 msgstr "Portfolio-teeman asetukset"
 
-#: inc/functions-admin.php:8
+#: inc/functions-admin.php:11
 msgid "Theme Settings"
 msgstr "Teeman asetukset"
 
-#: inc/functions-admin.php:15 inc/theme-options.php:69
+#: inc/functions-admin.php:20 inc/theme-options.php:71
 msgid "Portfolio Social Settings"
 msgstr "Portfolio-teeman sosiaaliset asetukset"
 
-#: inc/functions-admin.php:15
+#: inc/functions-admin.php:21
 msgid "Social"
 msgstr "Sosiaalinen"
 
-#: inc/functions-admin.php:16
+#: inc/functions-admin.php:28
 msgid "Portfolio Page Settings"
 msgstr "Portfolio-teeman sivuasetukset"
 
-#: inc/functions-admin.php:16
+#: inc/functions-admin.php:29
 msgid "Pages"
 msgstr "Sivut"
 
-#: inc/templates/portfolio-pages.php:6 inc/templates/portfolio-social.php:7
+#: inc/templates/portfolio-pages.php:15 inc/templates/portfolio-social.php:15
 msgid "Save Changes"
 msgstr "Tallenna"
 
-#: inc/theme-options.php:11
+#: inc/theme-options.php:13
 msgid "Change Picture"
 msgstr "Vaihda kuva"
 
-#: inc/theme-options.php:18
+#: inc/theme-options.php:20
 msgid "Enter your Twitter URL"
 msgstr "Syötä linkki Twitter-tilisi"
 
-#: inc/theme-options.php:23
+#: inc/theme-options.php:25
 msgid "Enter your Facebook URL"
 msgstr "Syötä linkki Facebook-tilisi"
 
-#: inc/theme-options.php:28
+#: inc/theme-options.php:30
 msgid "Enter your Github URL"
 msgstr "Syötä linkki Github-tilisi"
 
-#: inc/theme-options.php:33
+#: inc/theme-options.php:35
 msgid "Enter your LinkedIn URL"
 msgstr "Syötä linkki LinkedIn-tilisi"
 
-#: inc/theme-options.php:37
+#: inc/theme-options.php:39
 msgid "Change your profile picture and social media addresses."
 msgstr "Vaihda profiilikuva ja muokkaa sosiaalisen median linkkejä"
 
-#: inc/theme-options.php:55
+#: inc/theme-options.php:57
 msgid "Change the text and picture displayed on the home page"
 msgstr "Muokkaa etusivulla näkyvää tekstiä"
 
-#: inc/theme-options.php:71
+#: inc/theme-options.php:73
 msgid "Profile Picture"
 msgstr "Profiilikuva"
 
-#: inc/theme-options.php:72
+#: inc/theme-options.php:74
 msgid "Twitter URL"
 msgstr "Linkki Twitter-profiiliisi"
 
-#: inc/theme-options.php:73
+#: inc/theme-options.php:75
 msgid "Facebook URL"
 msgstr "Linkki Facebook-profiiliisi"
 
-#: inc/theme-options.php:74
+#: inc/theme-options.php:76
 msgid "Github URL"
 msgstr "Linkki Github-profiiliisi"
 
-#: inc/theme-options.php:75
+#: inc/theme-options.php:77
 msgid "LinkedIn URL"
 msgstr "Linkki LinkedIn-profiiliisi"
 
-#: inc/theme-options.php:79
+#: inc/theme-options.php:80
 msgid "Portfolio Home Page Settings"
 msgstr "Portfolio-teeman etusivun asetukset"
 
-#: inc/theme-options.php:82
+#: inc/theme-options.php:83
 msgid "Home Page Text"
 msgstr "Etusivun teksti"
 
-#: inc/theme-options.php:83
+#: inc/theme-options.php:84
 msgid "Home Page Picture"
 msgstr "Etusivun kuva"
 
-#: inc/theme-support.php:13
+#: inc/theme-support.php:15
 msgid "The main navigation menu which appears in the top right corner"
 msgstr "Etusivun oikeassa yläreunassa näkyvä valikko"
 
@@ -145,9 +185,15 @@ msgid "Contact page"
 msgstr "Ota yhteyttä"
 
 #. Template Name of the plugin/theme
-msgid "CV Page"
+msgid "CV page"
 msgstr "CV-sivu"
 
 #. Template Name of the plugin/theme
 msgid "Projects page"
 msgstr "Projektit"
+
+#~ msgid "Recent Projects"
+#~ msgstr "Viimeisimmät projektit"
+
+#~ msgid "CV Page"
+#~ msgstr "CV-sivu"
