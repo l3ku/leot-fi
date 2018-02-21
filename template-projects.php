@@ -22,7 +22,9 @@ get_header();
         <div class="col-md-5 col-xs-12">
           <?php if ( has_post_thumbnail() ): ?>
             <a href="<?php the_permalink(); ?>">
-              <img class="img-responsive center-block project-preview-image" src="<?php the_post_thumbnail_url( 'large' ); ?>">
+              <img class="img-responsive center-block project-preview-image"
+                src="<?php the_post_thumbnail_url( 'large' ); ?>"
+                alt="<?php esc_attr_e( 'Project preview image', 'leotoikka' ); ?>">
             </a>
           <?php endif; ?>
         </div><!-- .col-md-5 .col-xs-12 -->

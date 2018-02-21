@@ -44,7 +44,7 @@
 
       <!-- Header nav menu -->
       <nav class="navbar">
-        <div id="container nav-container">
+        <div class="container nav-container">
           <?php
           wp_nav_menu(array(
               'theme_location' => 'primary',

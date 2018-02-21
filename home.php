@@ -15,8 +15,9 @@ get_header();
       <!-- First row contains profile image and brief info -->
       <div class="row">
         <div class="col-xs-12 col-md-2">
-          <image src="<?php echo esc_attr( get_option( 'profile_picture' ) ); ?>"
-            class="img-circle center-block" id="personal-image">
+          <img class="img-circle center-block" id="personal-image"
+            src="<?php echo esc_url( get_option( 'profile_picture' ) ); ?>"
+            alt="<?php esc_attr_e( 'Picture of me', 'leotoikka' ); ?>">
         </div><!-- .col-xs-12 .col-md-2 -->
         <div class="coding-info col-xs-12 col-md-10">
           <?php $homeinfo = esc_attr( get_option( 'home_content' ) ); ?>
@@ -43,7 +44,9 @@ get_header();
                     <?php the_title(); ?>
                   </a>
                   <a class="projects-preview-thumbnail" href="<?php the_permalink(); ?>">
-                    <img class="img-responsive center-block" src="<?php echo get_the_post_thumbnail_url( $post_id ); ?>">
+                    <img class="img-responsive center-block"
+                    src="<?php echo get_the_post_thumbnail_url( $post_id ); ?>"
+                    alt="<?php esc_attr_e( 'Project preview image', 'leotoikka' ); ?>">
                   </a>
                 </div><!-- .projects-preview-entry -->
               </div><!-- .col-md-6 .col-xs-12 -->
