@@ -18,7 +18,7 @@ wp_footer();
           &copy;
           <a href="<?php echo get_option( 'home' ); ?>">
             Leo Toikka
-          </a> <?php the_time( 'Y' ); ?>
+          </a> <?php echo date( 'Y' ); ?>
         </div>
 
         <div class="social-media-wrapper">
