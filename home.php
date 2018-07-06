@@ -20,7 +20,7 @@ get_header();
             alt="<?php esc_attr_e( 'Picture of me', 'leotoikka' ); ?>">
         </div><!-- .col-xs-12 .col-md-2 -->
         <div class="coding-info col-xs-12 col-md-10">
-          <?php $homeinfo = esc_attr( get_option( 'home_content' ) ); ?>
+          <?php $homeinfo = get_option( 'home_content' ); ?>
           <?php if ( $homeinfo ) : ?>
             <div class="homeinfo-text">
               <?php echo $homeinfo; ?>
