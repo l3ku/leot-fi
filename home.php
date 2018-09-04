@@ -32,10 +32,10 @@ get_header();
       <!-- Second row contains project showcase -->
       <div class="row">
         <hr>
-        <h1 class="recent-projects"><?php echo 'Recent Projects'; ?></h1>
-        <div class="projects-preview">
-          <?php $wpb_all_query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 2 ) ); ?>
-          <?php if ( $wpb_all_query->have_posts() ) : ?>
+        <?php $wpb_all_query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 2 ) ); ?>
+        <?php if ( $wpb_all_query->have_posts() ) : ?>
+          <h1 class="recent-projects"><?php echo 'Recent Projects'; ?></h1>
+          <div class="projects-preview">
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
               <?php $post_id = get_the_ID(); ?>
               <div class="col-md-6 col-xs-12">
@@ -51,8 +51,8 @@ get_header();
                 </div><!-- .projects-preview-entry -->
               </div><!-- .col-md-6 .col-xs-12 -->
             <?php endwhile; ?>
-          <?php endif; ?>
-        </div><!-- .projects-preview -->
+          </div><!-- .projects-preview -->
+        <?php endif; ?>
       </div><!-- .row -->
 
     </div><!-- .container-fluid -->
