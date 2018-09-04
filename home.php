@@ -32,7 +32,7 @@ get_header();
       <!-- Second row contains project showcase -->
       <div class="row">
         <hr>
-        <?php $wpb_all_query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 2 ) ); ?>
+        <?php $wpb_all_query = new WP_Query( array( 'post_type' => 'post', 'category_name' => 'Projects', 'post_status' => 'publish', 'posts_per_page' => 2 ) ); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
           <h1 class="recent-projects"><?php echo 'Recent Projects'; ?></h1>
           <div class="projects-preview">
